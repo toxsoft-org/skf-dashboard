@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: USkat Dashboards: SkService library
+Bundle-SymbolicName: org.toxsoft.skf.dashboard.lib
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.toxsoft.skf.dashboard.lib,
+ org.toxsoft.skf.dashboard.lib.impl,
+ org.toxsoft.skf.dashboard.lib.l10n
+Bundle-Vendor: toxsoft.org
+Automatic-Module-Name: org.toxsoft.skf.dashboard.lib
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Require-Bundle: org.toxsoft.core.tslib,
+ org.toxsoft.uskat.core,
+ org.toxsoft.uskat.core.inner
